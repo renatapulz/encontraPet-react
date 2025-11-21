@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul.default-list {
+  @apply list-disc pl-4 space-y-1 text-[#444444] leading-relaxed;
+
+  li::marker {
+    color: #26BCBB; /* Mesma cor dos botões */
+  }
+
+  strong {
+    @apply font-semibold text-[#222];
+  }
+}
+
+ol.default-list {
+  @apply list-decimal pl-6 space-y-2 text-[#444444] leading-relaxed;
+
+  li::marker {
+    color: #70BCBE;
+  }
+}
+
+body {
+  @apply bg-white text-text font-body;
+  font-size: 17px;
+}
+
+h1, h2, h3, h4 {
+  @apply font-title text-primary;
+}
+
+button {
+  @apply bg-button text-white px-6 py-2 rounded-lg font-semibold hover:opacity-90 transition;
+}
+
+.card {
+  @apply bg-secondary rounded-2xl shadow-md flex flex-col justify-between;
+  font-size: 21px;
+}
