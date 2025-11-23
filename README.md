@@ -66,7 +66,6 @@ npm run dev
 ## Integrantes
 
 - DANILO AUGUSTO FELIX
-- IGOR BARROSO DE CARVALHO
 - RICHARD CARVALHO VIANA
 - HASSAN DIAB
 - MIGUEL GONCALVES LEITE
@@ -76,7 +75,7 @@ npm run dev
 
 ## 🎬 Vídeo demonstrativo: 
 
-🔗
+🔗 https://youtu.be/jW5W3Yl2y68
 
 ---
 
